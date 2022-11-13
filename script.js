@@ -25,6 +25,9 @@ const createTask = (evento) => {
   task.appendChild(deleteIcon());
   list.appendChild(task);
 };
+// hacer una funcion para agregar al LS
+
+
 
 //Arrow functions o funciones anonimas
 btn.addEventListener('click', createTask);
